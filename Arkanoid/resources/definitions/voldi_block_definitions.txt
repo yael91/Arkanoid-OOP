@@ -1,0 +1,21 @@
+# default values for blocks
+default height:25 width:50
+
+# block definitions
+bdef symbol:b hit_points:1 fill:color(red) stroke:color(black)
+bdef symbol:i hit_points:2 fill:color(lightGray) fill-2:color(blue)
+bdef symbol:e hit_points:1 fill:color(blue)
+bdef symbol:m hit_points:1 fill:color(black)
+bdef symbol:l hit_points:2 fill:color(yellow)
+bdef symbol:z hit_points:3 fill:color(green)
+bdef symbol:g hit_points:3 fill:color(white)
+bdef symbol:t hit_points:1 fill:image(block_images/zebra.jpg)
+bdef symbol:c hit_points:2 fill:image(block_images/zebra.jpg) fill-2:color(green)
+
+# spacers definitions
+sdef symbol:- width:50
+
+
+
+
+
